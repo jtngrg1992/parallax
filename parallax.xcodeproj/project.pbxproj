@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131606A11F85567500A0CF31 /* ParallaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131606A01F85567500A0CF31 /* ParallaxViewController.swift */; };
+		131606A31F855B0000A0CF31 /* Screen Shot 2017-08-27 at 1.44.23 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 131606A21F855A7D00A0CF31 /* Screen Shot 2017-08-27 at 1.44.23 PM.png */; };
 		13596BBE1F76AD1B0081B0D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13596BBD1F76AD1B0081B0D6 /* AppDelegate.swift */; };
 		13596BC01F76AD1B0081B0D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13596BBF1F76AD1B0081B0D6 /* ViewController.swift */; };
 		13596BC31F76AD1B0081B0D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13596BC11F76AD1B0081B0D6 /* Main.storyboard */; };
 		13596BC61F76AD1B0081B0D6 /* parallax.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13596BC41F76AD1B0081B0D6 /* parallax.xcdatamodeld */; };
 		13596BC81F76AD1B0081B0D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13596BC71F76AD1B0081B0D6 /* Assets.xcassets */; };
 		13596BCB1F76AD1B0081B0D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13596BC91F76AD1B0081B0D6 /* LaunchScreen.storyboard */; };
+		13596BD31F76AE5A0081B0D6 /* 2401-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13596BD21F76AE290081B0D6 /* 2401-4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		131606A01F85567500A0CF31 /* ParallaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxViewController.swift; sourceTree = "<group>"; };
+		131606A21F855A7D00A0CF31 /* Screen Shot 2017-08-27 at 1.44.23 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-08-27 at 1.44.23 PM.png"; sourceTree = "<group>"; };
 		13596BBA1F76AD1B0081B0D6 /* parallax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parallax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13596BBD1F76AD1B0081B0D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13596BBF1F76AD1B0081B0D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		13596BC71F76AD1B0081B0D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13596BCA1F76AD1B0081B0D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13596BCC1F76AD1B0081B0D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13596BD21F76AE290081B0D6 /* 2401-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2401-4.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				13596BBD1F76AD1B0081B0D6 /* AppDelegate.swift */,
+				13596BD21F76AE290081B0D6 /* 2401-4.jpg */,
+				131606A21F855A7D00A0CF31 /* Screen Shot 2017-08-27 at 1.44.23 PM.png */,
 				13596BBF1F76AD1B0081B0D6 /* ViewController.swift */,
+				131606A01F85567500A0CF31 /* ParallaxViewController.swift */,
 				13596BC11F76AD1B0081B0D6 /* Main.storyboard */,
 				13596BC71F76AD1B0081B0D6 /* Assets.xcassets */,
 				13596BC91F76AD1B0081B0D6 /* LaunchScreen.storyboard */,
@@ -126,7 +135,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				131606A31F855B0000A0CF31 /* Screen Shot 2017-08-27 at 1.44.23 PM.png in Resources */,
 				13596BCB1F76AD1B0081B0D6 /* LaunchScreen.storyboard in Resources */,
+				13596BD31F76AE5A0081B0D6 /* 2401-4.jpg in Resources */,
 				13596BC81F76AD1B0081B0D6 /* Assets.xcassets in Resources */,
 				13596BC31F76AD1B0081B0D6 /* Main.storyboard in Resources */,
 			);
@@ -142,6 +153,7 @@
 				13596BC01F76AD1B0081B0D6 /* ViewController.swift in Sources */,
 				13596BBE1F76AD1B0081B0D6 /* AppDelegate.swift in Sources */,
 				13596BC61F76AD1B0081B0D6 /* parallax.xcdatamodeld in Sources */,
+				131606A11F85567500A0CF31 /* ParallaxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +296,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jatin.parallax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -299,7 +311,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jatin.parallax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
